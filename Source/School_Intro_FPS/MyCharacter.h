@@ -13,7 +13,7 @@ class SCHOOL_INTRO_FPS_API AMyCharacter : public ACharacter
 
 public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Character Info")
-	int health = 100;
+	float health = 100;
 
 	// Sets default values for this character's properties
 	AMyCharacter();

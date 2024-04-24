@@ -50,6 +50,7 @@ protected:
 
 	float timeSinceTick;
 
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "CaptureZone Info")
 	float percentage;
 
 	bool capturing;
